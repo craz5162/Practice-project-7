@@ -1,0 +1,730 @@
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+.head {
+      background-image: url(../images/donation8.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+}
+
+.head h1 {
+      display: block;
+      margin: auto;
+      padding-top: 200px;
+      padding-left: 200px;
+      padding-right: 200px;
+      font-size: 70px;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+}
+
+.head p {
+      display: block;
+      margin: auto;
+      padding-left: 50px;
+      font-size: 20px;
+      color: white;
+      font-weight: bolder;
+      text-align: center;
+      padding-left: 400px;
+      padding-right: 400px;
+      padding-top: 15px;
+}
+
+.head button {
+      display: block;
+      margin: 35px auto;
+      background-color: rgb(234, 56, 56);
+      padding: 20px 60px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+}
+
+/* Donate section */
+.Donate donet h1 {
+      text-align: center;
+      margin-top: 80px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.Donate p {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      padding: 20px 340px;
+
+}
+
+.cart {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+.box {
+      background-color: rgb(232, 223, 223);
+      padding: 40px;
+      border-radius: 5px;
+}
+
+.box h1 {
+      font-family: 'Roboto', sans-serif;
+}
+
+.Amount p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 80px;
+
+}
+
+.Amount hr {
+      width: 50%;
+      margin: 20px auto;
+}
+
+.Amount button {
+      display: block;
+      margin: 30px auto;
+      background-color: rgb(234, 56, 56);
+      padding: 17px 40px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+}
+
+/* Donate section end */
+
+/* Donate-plan  */
+.donet-plan h1 {
+      text-align: center;
+      margin-top: 80px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.donet-plan p {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      padding: 20px 340px;
+}
+
+.donet-plan-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 40px;
+}
+
+.donet-plan-box-group {
+      background-color: antiquewhite;
+      padding: 50px 20px;
+      border-radius: 8px;
+}
+
+.donet-plan-box-group h2 {
+      font-family: 'Roboto', sans-serif;
+      padding-top: 20px;
+}
+
+.donet-plan-box-group p {
+      font-family: 'Roboto', sans-serif;
+      padding-top: 20px;
+}
+
+/* Donate-plan end */
+
+/*  donation  */
+.donation {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 80px 80px;
+}
+
+.left-site {
+      padding: 30px;
+}
+
+.left-site h1 {
+      margin-top: 80px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.left-site p {
+      padding-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+}
+
+.left-site button {
+      margin-top: 25px;
+      background-color: rgb(234, 56, 56);
+      padding: 20px 40px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+}
+
+.right-site img {
+      margin-top: 50px;
+      height: 550px;
+      width: 500px;
+}
+
+/*  donation end */
+
+/* donation 2  */
+.donation-2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 80px 80px;
+}
+
+.right-site-box {
+      padding-left: 80px;
+}
+
+.right-site-box h1 {
+      margin-top: 80px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.right-site-box p {
+      padding-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+}
+
+.right-site-box button {
+      margin-top: 25px;
+      background-color: rgb(234, 56, 56);
+      padding: 20px 40px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      border: none;
+      border-radius: 8px;
+}
+
+.left-site-box img {
+      margin-top: 50px;
+      height: 550px;
+      width: 500px;
+      margin-left: 30px;
+}
+
+/* donation 2 end */
+
+@media only screen and (max-width:1352px) {
+      .head h1 {
+            padding-top: 160px;
+            padding-left: 45px;
+            padding-right: 45px;
+            font-size: 50px;
+      }
+
+      .head p {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+      }
+
+      /* Donate section */
+      .Donate donet h1 {
+            text-align: center;
+            margin-top: 55px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+      }
+
+      .Donate p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 0px;
+
+      }
+
+      .cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+      }
+
+      .box {
+            background-color: rgb(232, 223, 223);
+            padding: 25px;
+            border-radius: 5px;
+      }
+
+      /* Donate section end*/
+
+      /* Donate-plan  */
+      .donet-plan-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 15px 30px;
+      }
+
+      /* Donate-plan  end*/
+
+      /*  donation  */
+      .donation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            /* margin: 80px 80px; */
+      }
+
+      .left-site {
+            padding: 15px;
+      }
+
+      .left-site h1 {
+            margin-top: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+      }
+
+      .left-site p {
+            padding-top: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+      }
+
+      .left-site button {
+            margin-top: 25px;
+            background-color: rgb(234, 56, 56);
+            padding: 18px 30px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+      }
+
+      .right-site img {
+            margin-top: 50px;
+            width: 400px;
+            height: 450px;
+      }
+
+      /*  donation end */
+
+      /*  donation 2 */
+      .donation-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 40px 40px;
+      }
+
+      .right-site-box h1 {
+            font-size: 40px;
+      }
+
+      .left-site-box img {
+            width: 400px;
+            height: 400px;
+      }
+
+      /*  donation 2 end */
+}
+
+@media only screen and (max-width:900px) {
+      .head h1 {
+            padding-top: 160px;
+            padding-left: 35px;
+            padding-right: 35px;
+            font-size: 40px;
+      }
+
+      .head p {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+      }
+
+      /* Donate section */
+      .Donate donet h1 {
+            text-align: center;
+            margin-top: 55px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 45px;
+            font-weight: bold;
+      }
+
+      .Donate p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 180px;
+
+      }
+
+      .cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+      }
+
+      .box {
+            background-color: rgb(232, 223, 223);
+            padding: 20px;
+            border-radius: 5px;
+      }
+
+      .box h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 23px;
+      }
+
+      /* Donate section end*/
+
+      /* Donate-plan  */
+      .donation-2{
+            margin:  40px 40px;
+      }
+      .donet-plan h1 {
+            text-align: center;
+            margin-top: 80px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+      }
+
+      .donet-plan p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 80px;
+      }
+
+      .donet-plan-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 15px 20px;
+      }
+
+      .donet-plan-box-group {
+            background-color: antiquewhite;
+            padding: 40px 20px;
+            border-radius: 8px;
+            height: 330px;
+      }
+
+      /* Donate-plan  end*/
+
+      /* dunetion   */
+      .donation-2{
+            margin: 40px 40px;
+      }
+
+      .right-site img {
+            height: 400px;
+      }
+
+      .left-site button {
+            font-size: 15px;
+      }
+
+      /* dunetion  end */
+      /*  donation 2 */
+      .donation-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 30px 30px;
+      }
+      .right-site-box{
+            float: 40px;
+      }
+      .right-site-box button{
+            padding: 17px 30px;
+      }
+      .right-site-box h1 {
+            font-size: 30px;
+      }
+      .right-site-box p{
+            font-size: 17px;
+      }
+
+      .left-site-box img {
+            width: 400px;
+            height: 400px;
+      }
+
+      /*  donation 2 end */
+}
+
+@media only screen and (max-width:800px) {
+      .head h1 {
+            padding-top: 180px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 40px;
+      }
+
+      .head p {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+      }
+
+      /* Donate section */
+      .Donate donet h1 {
+            text-align: center;
+            margin-top: 55px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 45px;
+            font-weight: bold;
+      }
+
+      .Donate p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 90px;
+
+      }
+
+      .cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+      }
+
+      .box {
+            background-color: rgb(232, 223, 223);
+            padding: 10px;
+            border-radius: 5px;
+      }
+
+      .box h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+      }
+
+      .Amount hr {
+            width: 70%;
+            margin: 20px auto;
+      }
+
+      /* Donate section end*/
+      /* Donate-plan  */
+      .donet-plan h1 {
+            text-align: center;
+            margin-top: 80px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+      }
+
+      .donet-plan p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 150px;
+      }
+
+      .donet-plan-box {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            margin: 15px 10px;
+      }
+
+      .donet-plan-box-group {
+            background-color: antiquewhite;
+            padding: 40px 25px;
+            border-radius: 8px;
+            height: 330px;
+      }
+
+      /* Donate-plan  end*/
+
+      /* dunetion   */
+      .left-site {
+            padding-left: 60px;
+      }
+
+      .donation {
+            margin: 20px 20px;
+            flex-direction: column-reverse;
+      }
+
+      .right-site img {
+            height: 350px;
+            width: 100%;
+      }
+
+      .left-site button {
+            font-size: 15px;
+      }
+
+      /* dunetion  end */
+
+      /* dunation-2  */
+      .donation-2{
+            flex-direction: column;
+            margin: 50px 20px;
+      }
+      .right-site-box{
+            padding-left: 60px;
+      }
+      .left-site-box img{
+            width: 100%;
+            height: 350px;
+            margin: 0px auto;
+      }
+      .right-site-box h1{
+            margin-top: 30px;
+      }
+      /* dunation-2 end */
+
+}
+
+@media only screen and (max-width:500px) {
+      .head h1 {
+            padding-top: 150px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 35px;
+      }
+
+      .head p {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 15px;
+      }
+
+      /* Donate section */
+      .Donate donet h1 {
+            text-align: center;
+            margin-top: 55px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+      }
+
+      .Donate p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            padding: 20px 50px;
+
+      }
+
+      .cart {
+            display: inline;
+            margin: 0px auto;
+      }
+
+      .box {
+            background-color: rgb(232, 223, 223);
+            padding: 50px;
+            border-radius: 10px;
+            margin: 20px 40px;
+      }
+
+      .box h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            text-align: center;
+      }
+
+      /* Donate section end*/
+
+      /* donet-plan  */
+      .donet-plan h1 {
+            text-align: center;
+            margin-top: 80px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+      }
+
+      .donet-plan p {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            padding: 20px 50px;
+      }
+
+      .donet-plan-box {
+            display: grid;
+            grid-template-columns: auto;
+            gap: 10px;
+            margin: 15px 20px;
+      }
+
+      .donet-plan-box-group {
+            background-color: antiquewhite;
+            padding: 20px 15px;
+            border-radius: 8px;
+            height: 250px;
+      }
+
+      /* donet-plan end */
+
+      /* dunetion   */
+      .left-site {
+            padding-left: 5px;
+      }
+
+      /* dunetion  end */
+
+      /* donation-2  */
+      .right-site-box {
+            padding-left: 5px;
+      }
+      /* donation-2 end */
+}
