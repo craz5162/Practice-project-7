@@ -248,6 +248,68 @@
 
 /* donation 2 end */
 
+/* Subscribe  */
+.Subscribe h1 {
+      text-align: center;
+      margin-top: 80px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+}
+
+.Subscribe p {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      padding: 20px 340px;
+}
+.login-from{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: antiquewhite;
+      padding: 80px;
+      margin: 30px 150px;
+      border-radius: 10px;
+}
+.login-from input{
+      width: 30%;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+}
+.login-from button{
+      background-color: rgb(193, 31, 31);
+      padding: 15px 40px;
+      color: white;
+      font-weight: bolder;
+      margin-left: 5px;
+      border: none;
+      border-radius: 8px;
+}
+/* Subscribe end */
+
+/* footer  */
+.footer{
+      background-color: black;
+      padding: 50px;
+      text-align: center;
+}
+.footer h1{
+      color: red;
+      font-weight: bolder;
+      font-size: 40px;
+      font-family: 'Roboto', sans-serif;
+}
+.footer h3{
+      font-weight: bolder;
+      font-size: 15px;
+      color: white;
+      padding-top: 10px;
+      font-family: 'Roboto', sans-serif;
+}
+/* footer end */
+
 @media only screen and (max-width:1352px) {
       .head h1 {
             padding-top: 160px;
@@ -329,7 +391,7 @@
       .left-site p {
             padding-top: 20px;
             font-family: 'Roboto', sans-serif;
-            font-size: 16px;
+            font-size: 20px;
       }
 
       .left-site button {
@@ -370,6 +432,18 @@
       }
 
       /*  donation 2 end */
+
+      /* Subscribe  */
+      .Subscribe p{
+            padding: 20px 200px;
+      }
+      .login-from input{
+            width: 60%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+      }
+      /* Subscribe end */
 }
 
 @media only screen and (max-width:900px) {
@@ -426,9 +500,10 @@
       /* Donate section end*/
 
       /* Donate-plan  */
-      .donation-2{
-            margin:  40px 40px;
+      .donation-2 {
+            margin: 40px 40px;
       }
+
       .donet-plan h1 {
             text-align: center;
             margin-top: 80px;
@@ -462,7 +537,7 @@
       /* Donate-plan  end*/
 
       /* dunetion   */
-      .donation-2{
+      .donation-2 {
             margin: 40px 40px;
       }
 
@@ -482,16 +557,20 @@
             justify-content: space-evenly;
             margin: 30px 30px;
       }
-      .right-site-box{
+
+      .right-site-box {
             float: 40px;
       }
-      .right-site-box button{
+
+      .right-site-box button {
             padding: 17px 30px;
       }
+
       .right-site-box h1 {
             font-size: 30px;
       }
-      .right-site-box p{
+
+      .right-site-box p {
             font-size: 17px;
       }
 
@@ -501,6 +580,21 @@
       }
 
       /*  donation 2 end */
+
+      /* Subscribe */
+      .Subscribe p {
+            padding: 20px 150px;
+      }
+      .login-from{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+            padding: 50px;
+            margin: 30px 100px;
+            border-radius: 10px;
+      }
+      /* Subscribe end*/
 }
 
 @media only screen and (max-width:800px) {
@@ -614,22 +708,56 @@
       /* dunetion  end */
 
       /* dunation-2  */
-      .donation-2{
+      .donation-2 {
             flex-direction: column;
             margin: 50px 20px;
       }
-      .right-site-box{
+
+      .right-site-box {
             padding-left: 60px;
       }
-      .left-site-box img{
+
+      .left-site-box img {
             width: 100%;
             height: 350px;
             margin: 0px auto;
       }
-      .right-site-box h1{
+
+      .right-site-box h1 {
             margin-top: 30px;
       }
+
       /* dunation-2 end */
+
+      /* Subscribe  */
+      .Subscribe p{
+            padding: 20px 100px;
+      }
+      .login-from{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+            padding: 30px;
+            margin: 30px 30px;
+            border-radius: 10px;
+      }
+      .login-from input{
+            width: 60%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+      }
+      .login-from button{
+            background-color: rgb(193, 31, 31);
+            padding: 10px 30px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 5px;
+            border: none;
+            border-radius: 8px;
+      }
+      /* Subscribe end */
 
 }
 
@@ -726,5 +854,41 @@
       .right-site-box {
             padding-left: 5px;
       }
+
+      /* Subscribe  */
+      .login-from{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+            padding: 30px;
+            margin: 20px 20px;
+            border-radius: 10px;
+      }
+      .Subscribe h1{
+            font-size: 35px;
+      }
+      .Subscribe p{
+            padding: 20px 40px;
+            font-size: 15px;
+      }
+      .login-from input{
+            width: 80%;
+            padding: 7px;
+            border: none;
+            border-radius: 5px;
+      }
+      .login-from button{
+            background-color: rgb(193, 31, 31);
+            padding: 7px 20px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 5px;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+      }
+      /* Subscribe end */
+
       /* donation-2 end */
 }
